@@ -9,7 +9,7 @@
 #include "stm32mp157c-kmtek-octavo.dts"
 
 / {
-	model = "STMicroelectronics STM32MP157C-DK2 configured to run M4 examples";
+	model = "STM32MP157C KMTEK OCTAVO configured to run M4 examples";
 	compatible = "st,stm32mp157c-kmtek-octavo-m4-examples", "st,stm32mp157c-kmtek-octavo", "st,stm32mp157";
 };
 

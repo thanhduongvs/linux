@@ -9,8 +9,8 @@
 #include "stm32mp157c-kmtek-octavo.dts"
 
 / {
-	model = "STMicroelectronics STM32MP157C-DK2 configured to run Linux A7 examples";
-	compatible = "st,stm32mp157c-kmtek-octavo-a7-examples.dts", "st,stm32mp157c-kmtek-octavo", "st,stm32mp157";
+	model = "STM32MP157C KMTEK OCTAVO configured to run Linux A7 examples";
+	compatible = "st,stm32mp157c-kmtek-octavo-a7-examples", "st,stm32mp157c-kmtek-octavo", "st,stm32mp157";
 };
 
 &adc {
