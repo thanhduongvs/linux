@@ -9,15 +9,11 @@
 #include "stm32mp157c-kmtek-octavo.dts"
 
 / {
-	model = "STM32MP157C KMTEK OCTAVO configured to run Linux A7 examples";
+	model = "KienMinhTek OSD32MP157C configured to run Linux A7 examples";
 	compatible = "st,stm32mp157c-kmtek-octavo-a7-examples", "st,stm32mp157c-kmtek-octavo", "st,stm32mp157";
 };
 
 &adc {
-	status = "okay";
-};
-
-&i2c5 {
 	status = "okay";
 };
 
