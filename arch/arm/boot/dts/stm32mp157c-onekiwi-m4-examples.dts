@@ -81,13 +81,6 @@
 	};
 };
 
-&m4_spi4 {
-	pinctrl-names = "default";
-	pinctrl-0 = <&m4_spi4_pins_a>;
-	status = "okay";
-};
-
-
 &m4_timers2 {
 	status = "okay";
 };
@@ -95,12 +88,6 @@
 &m4_timers1 {
 	pinctrl-names = "default";
 	pinctrl-0 = <&m4_pwm1_pins_a_ch1>;
-	status = "okay";
-};
-
-&m4_uart7 {
-	pinctrl-names = "default";
-	pinctrl-0 = <&m4_uart7_pins_a>;
 	status = "okay";
 };
 

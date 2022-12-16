@@ -29,10 +29,6 @@
 	status = "okay";
 };
 
-&timers5 {
-	status = "okay";
-};
-
 &timers6 {
 	status = "okay";
 };
