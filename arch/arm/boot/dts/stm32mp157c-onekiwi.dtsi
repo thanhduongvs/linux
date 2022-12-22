@@ -297,7 +297,7 @@
 	status = "okay";
 };
 
-/*&i2c1 {
+&i2c1 {
 	pinctrl-names = "default", "sleep";
 	pinctrl-0 = <&i2c1_pins_mx>;
 	pinctrl-1 = <&i2c1_sleep_pins_mx>;
@@ -307,6 +307,7 @@
 	/delete-property/dmas;
 	/delete-property/dma-names;
 
+	/*
 	radio@11 {
 		compatible = "rda,rda5807";
 		reg = <0x11>;
@@ -316,8 +317,8 @@
 		rda,lnan;
 		rda,lnap;
 		rda,analog-out;
-	};
-};*/
+	};*/
+};
 
 &i2c2 {
 	pinctrl-names = "default", "sleep";
