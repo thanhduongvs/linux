@@ -1011,7 +1011,10 @@ dtb-$(CONFIG_ARCH_STM32) += \
 	stm32mp157c-kmtek-octavo.dtb \
 	stm32mp157c-kmtek-octavo-a7-examples.dtb \
 	stm32mp157c-kmtek-octavo-m4-examples.dtb \
-	stm32mp157c-onekiwi.dtb \
+	stm32mp151a-kiwi.dtb \
+	stm32mp151a-kiwi-a7-examples.dtb \
+	stm32mp151a-kiwi-m4-examples.dtb \
+	stm32mp151a-kiwi.dtb \
 	stm32mp157c-onekiwi-a7-examples.dtb \
 	stm32mp157c-onekiwi-m4-examples.dtb 
 
